@@ -1,0 +1,132 @@
+*{
+  margin:0;
+  padding:0;
+  background-color: rgb(237, 239, 252);
+  background-size: cover;
+  background-position: center;
+  background-repeat: none;
+}
+
+.header{
+  color:#1877f2;
+  text-align: center;
+  padding-top: 40px;
+  font-size: 24px;
+  padding-bottom:2px;
+}
+
+.log-form{
+  height:410px;
+  width:400px;
+  background-color:#ffffff;
+  margin:1% auto 6% auto;
+  border:1px solid #dddfe2;
+  border-radius: 10px;
+  
+}
+
+.login-box{
+  text-align: center;
+  background-color:#ffffff;
+  font-size:20px;
+}
+
+.login-box p{
+  background-color: #ffffff;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.input-box{
+  background-color: #ffffff;
+}
+#user-name{
+  width:88%;
+  height:50px;
+  padding-left: 12px;
+  margin-left:17px;
+  background-color: #ffffff;
+  border:1px solid #dddfe2;
+  border-radius: 6px;
+  font-size: 15px;
+  margin-bottom: 17px;
+}
+
+#password{
+  width:88%;
+  height:50px;
+  padding-left: 12px;
+  margin-left:17px;
+  background-color: #ffffff;
+  border:1px solid #dddfe2;
+  border-radius: 6px;
+  font-size: 15px;
+  margin-bottom:17px;
+}
+
+.log-btn{
+  background-color: #ffffff;
+}
+
+#login-button{
+  width: 92%;
+  height: 50px;
+  border-radius: 6px;
+  border:none;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  background-color: #1877f2;
+  color: #ffffff;
+  cursor: pointer;
+  margin-left: 16px;
+  margin-bottom:17px;
+}
+
+#login-button:hover{
+  background-color: rgb(20,112,204);
+}
+
+#forgot-acc{
+  padding-left: 125px;
+  color:rgb(24, 119, 203);
+  background-color: #ffffff;
+  margin-bottom: 14px;
+  cursor: pointer;
+}
+
+h5{
+  width:90%;
+  text-align: center;
+  border-bottom: 0.5px solid #dddfe2;
+  line-height: 1px;
+  margin:17px 0 20px 20px;
+  font-weight: normal;
+}
+
+h5 span{
+  background:#fff;
+  padding:0 10px ;
+}
+
+.create-acc{
+  background-color: #ffffff;
+}
+
+#create-acc-btn{
+  width:50%;
+  height: 50px;
+  border:none;
+  border-radius: 6px;
+  margin-left: 100px;
+  /* text-align: center; */
+  font-weight: bold;
+  font-size:16px;
+  color: #ffffff;
+  background-color: #42b72a;
+  cursor:pointer;
+}
+
+#create-acc-btn:hover{
+  background-color: rgb(40,180,45);
+}
