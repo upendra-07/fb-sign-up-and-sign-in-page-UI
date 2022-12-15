@@ -1,12 +1,21 @@
-import React from 'react';
+import React, {useState} from 'react';
+import Signup from './Signup';
+// import './Signup.css';
 
 function Login(){
+    const [isregistered,setIsregistered] = useState(false);
+
+    const changeHandler = () =>{
+        setIsregistered(true);
+
+    }
     return(
         <div className='main'>
+           {isregistered === false ? 
+           <>
             <div className="header">
                 <h1 id="heading">facebook</h1>
             </div>
-
             <form className='log-form'>
                 <div className="login-box">
                     <p>Log in to Facebook</p>
@@ -24,10 +33,11 @@ function Login(){
                 <h5><span>or</span></h5>
 
                 <div className='create-acc'>
-                    <button id ="create-acc-btn">Create New Account</button>
+                    <button id ="create-acc-btn" onClick={changeHandler}>Create New Account</button>
                 </div>
-            </form>
-
+            </form></>
+            :
+            <Signup/>}
         </div>
     )
 }
